@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- File Number -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File Number"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/etFileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter File Number"
+            android:inputType="text" />
+
+        <!-- File Type (Dropdown) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File Type"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerFileType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
+
+        <!-- Rack Number -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rack Number"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/etRackNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Rack Number"
+            android:inputType="text" />
+
+        <!-- Room Number -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room Number"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/etRoomNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Room Number"
+            android:inputType="text" />
+
+        <!-- Verified By -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verified By"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/etVerifiedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Verifier's Name"
+            android:inputType="textPersonName" />
+
+        <!-- Date (Read-Only) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:focusable="false"
+            android:text="Auto-filled Date"
+            android:inputType="date" />
+
+        <!-- Time (Read-Only) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <EditText
+            android:id="@+id/etTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:focusable="false"
+            android:text="Auto-filled Time"
+            android:inputType="time" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSaveFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save File"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFF" />
+    </LinearLayout>
+</ScrollView>

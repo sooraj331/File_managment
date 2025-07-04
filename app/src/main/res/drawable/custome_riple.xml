@@ -1,0 +1,19 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#868FBF">
+
+    <!-- This item controls the ripple boundary -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="oval">
+            <corners android:radius="12dp"/>
+            <solid android:color="#000000"/>
+        </shape>
+    </item>
+
+    <!-- This defines the shape of the clickable area -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp"/>
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</ripple>

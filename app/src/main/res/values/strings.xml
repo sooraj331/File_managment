@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">myweb</string>
+
+
+    <string-array name="file_types">
+        <item>Select File Type</item>
+        <item>Invoice</item>
+        <item>Report</item>
+        <item>Purchase Order</item>
+        <item>HR Document</item>
+        <item>Confidential</item>
+    </string-array>
+</resources>
